@@ -23,8 +23,15 @@ Enter the following in the terminal:
 ```bash
 $ gulp
 $ gulp clean - cleans the dist files
-$ gulp test - runs the protractor e2e tests.
 ```
+## Running your tests
+```$ gulp test``` - runs the protractor e2e tests.
+After installing gulp and nodejs run the above command to fire up up your e2e tests.
+The default browser used in the protractor conf file is chrome, if you do not have the chrome browser instance installed you will recieve the following error:
+'Could not find chromedriver instance'
+
+If you see this in the console please run the following command:
+node_modules/protractor/bin/webdriver-manager update
 
 ## Local Server URL:Port
 ```
