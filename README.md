@@ -30,7 +30,7 @@ $ gulp test - runs the protractor e2e tests.
 ```
 http://localhost:4000
 ```
-# Main Purpose of the App
+## Main Purpose of the App
 Get acquainted with angular and nodeJS, make a responsive single page app. 
 Get acquainted with protractor for e2e testing.
 
