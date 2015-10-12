@@ -1,4 +1,4 @@
-# Cars Node Angular
+# Cars Search App
 A single page app that uses rest API for data and build with AngularJS structure with Gulp, Node and Browserify
 
 
@@ -15,7 +15,7 @@ $ npm install -g gulp
 Once the dependencies have been installed, enter the following in the terminal:
 ```bash
 
-$ cd person-node-angular
+$ cd CarsSearchApp
 $ npm install
 ```
 ## Running
