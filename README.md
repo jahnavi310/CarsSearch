@@ -14,7 +14,7 @@ $ npm install -g gulp
 
 Once the dependencies have been installed, enter the following in the terminal:
 ```bash
-$ git clone https://shoaibuddin@bitbucket.org/shoaibuddin/person-node-angular.git
+
 $ cd person-node-angular
 $ npm install
 ```
