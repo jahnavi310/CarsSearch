@@ -1,5 +1,5 @@
 # Cars Search App
-A single page app that uses rest API for data and build with AngularJS structure with Gulp, Node and Browserify
+A single page app that uses json for data and is built with AngularJS, Node and Browserify, where Gulp is the task runner.
 
 
 ## Installing
@@ -22,9 +22,18 @@ $ npm install
 Enter the following in the terminal:
 ```bash
 $ gulp
+$ gulp clean - cleans the dist files
+$ gulp test - runs the protractor e2e tests.
 ```
 
 ## Local Server URL:Port
 ```
 http://localhost:4000
 ```
+# Main Purpose of the App
+Get acquainted with angular and nodeJS, make a responsive single page app. 
+Get acquainted with protractor for e2e testing.
+
+What is protractor?
+http://angular.github.io/protractor/#/
+
