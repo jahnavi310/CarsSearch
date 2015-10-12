@@ -1,5 +1,5 @@
 # Cars Node Angular
-> A single page app that uses rest API for data and build with AngularJS structure with Gulp, Node and Browserify
+A single page app that uses rest API for data and build with AngularJS structure with Gulp, Node and Browserify
 
 
 ## Installing
