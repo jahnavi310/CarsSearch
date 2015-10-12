@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Search your CAR</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+     <script src="/js/main.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body ng-controller="MainController">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Search for your car sample app</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+            <h1>Angular, Node and Protractor!</h1>
+            <p>A single page app that uses Angular, Node and Protractor (for e2e tests).</p>
+            <p>
+                MAKE: <select class="form-control" ng-model="make" ng-change="changeModels(make)" ng-selected="$second">
+                <option ng-repeat="make in makes | filter:query | orderBy:orderProp" value="{{make.name}}" > {{make.name}} </option>
+              </select>
+              <br/>
+              MODEL: <select class="form-control" ng-model="model" ng-change="changeYears(model)">
+                <option ng-repeat="model in models | filter:query" value="{{model.name}}" > {{model.name}} </option>
+              </select>
+              <br/>
+              YEAR: <select class="form-control" ng-model="year">
+                <option ng-repeat="year in years | filter:query" value="{{year.name}}"> {{year.name}} </option>
+              </select>
+              <br/>
+              ZIPCODE: <input class="form-control" type="text" placeholder="Enter Zip code" ng-model="zipcode"></input>
+            </p>
+             <p>
+             <button type="button" class="btn btn-primary btn-large" ng-click='search(make,model,year,zipcode)'>Search</button>
+            </p>
+
+
+        </header>
+
+        <hr>
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Search App for CARS</h3>
+            </div>
+        </div>
+    
+        <!-- Page Features -->
+        
+
+        <div class="row text-center" ng-repeat="listing in listings | filter:query">
+
+            <div class="hero-feature" >
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>{{listing.makeName}} </h3>
+                        <p>{{listing.features}}</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+</body>
+
+</html>

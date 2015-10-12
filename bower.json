@@ -1,0 +1,21 @@
+{
+  "name": "cars-node-angular",
+  "version": "0.0.1",
+  "authors": [
+    "Shoaib Ud-Din <suddin@cars.com>"
+  ],
+  "description": "Cars Node and Angular",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://localhost:4000/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

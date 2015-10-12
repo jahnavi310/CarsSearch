@@ -1,0 +1,79 @@
+{
+  "PartnerResultsBO": {
+    "resultCount": 36,
+    "listings": [
+      {
+        "makeName": "Toyota",
+        "modelName": "Camry",
+        "modelYear": 2010,
+        "trimName": "EX",
+        "price": 13995,
+        "miles": 64302,
+        "exteriorColor": "Black",
+        "location": "41.742640,-87.799480",
+        "bodystyleName": "Sedan",
+        "engineDescription": "2.4L I4 16V MPFI DOHC",
+        "transmission": "5-Speed Automatic",
+        "drivetrain": "FWD",
+        "city": "Bridgeview",
+        "state": "IL",
+        "listingDateSeconds": 1443075503,
+        "features": "190 HP Horsepower, 2.4 Liter Inline 4 Cylinder DOHC Engine, 4 Doors, 8-Way Power Adjustable Drivers Seat, Air Conditioning, Automatic Transmission, Center Console - Full With Covered Storage, Clock - In-Radio Display, Front Seat Type - Bucket, Front-Wheel Drive, Fuel Economy EPA Highway (Mpg): 31 And EPA City (Mpg): 21, Head Airbags - Curtain 1st And 2nd Row, Intermittent Window Wipers, Multi-Function Remote - Trunk/Hatch/Door/Tailgate, Windows, Sunroof/Convertible Roof, Overhead Console - Mini With Storage, Power Heated Mirrors, Power Windows With 2 One-Touch, Privacy/Tinted Glass, Rear Bench Seats, Rear Defogger, Remote Sunroof/Convertible Roof Operation - Remote Sunroof Operation, Speed Sensitive Window Wipers, Sunroof - Express Open/Close Glass, Traction Control - ABS And Driveline"
+      },
+      {
+        "makeName": "Honda",
+        "modelName": "Accord",
+        "modelYear": 2010,
+        "trimName": "EX",
+        "price": 13995,
+        "miles": 64302,
+        "exteriorColor": "Black",
+        "location": "41.742640,-87.799480",
+        "bodystyleName": "Sedan",
+        "engineDescription": "2.4L I4 16V MPFI DOHC",
+        "transmission": "5-Speed Automatic",
+        "drivetrain": "FWD",
+        "city": "Bridgeview",
+        "state": "IL",
+        "listingDateSeconds": 1443075503,
+        "features": "190 HP Horsepower, 2.4 Liter Inline 4 Cylinder DOHC Engine, 4 Doors, 8-Way Power Adjustable Drivers Seat, Air Conditioning, Automatic Transmission, Center Console - Full With Covered Storage, Clock - In-Radio Display, Front Seat Type - Bucket, Front-Wheel Drive, Fuel Economy EPA Highway (Mpg): 31 And EPA City (Mpg): 21, Head Airbags - Curtain 1st And 2nd Row, Intermittent Window Wipers, Multi-Function Remote - Trunk/Hatch/Door/Tailgate, Windows, Sunroof/Convertible Roof, Overhead Console - Mini With Storage, Power Heated Mirrors, Power Windows With 2 One-Touch, Privacy/Tinted Glass, Rear Bench Seats, Rear Defogger, Remote Sunroof/Convertible Roof Operation - Remote Sunroof Operation, Speed Sensitive Window Wipers, Sunroof - Express Open/Close Glass, Traction Control - ABS And Driveline"
+      },
+      {
+        "makeName": "Acura",
+        "modelName": "I",
+        "modelYear": 2010,
+        "trimName": "EX",
+        "price": 13995,
+        "miles": 64302,
+        "exteriorColor": "Black",
+        "location": "41.742640,-87.799480",
+        "bodystyleName": "Sedan",
+        "engineDescription": "2.4L I4 16V MPFI DOHC",
+        "transmission": "5-Speed Automatic",
+        "drivetrain": "FWD",
+        "city": "Bridgeview",
+        "state": "IL",
+        "listingDateSeconds": 1443075503,
+        "features": "190 HP Horsepower, 2.4 Liter Inline 4 Cylinder DOHC Engine, 4 Doors, 8-Way Power Adjustable Drivers Seat, Air Conditioning, Automatic Transmission, Center Console - Full With Covered Storage, Clock - In-Radio Display, Front Seat Type - Bucket, Front-Wheel Drive, Fuel Economy EPA Highway (Mpg): 31 And EPA City (Mpg): 21, Head Airbags - Curtain 1st And 2nd Row, Intermittent Window Wipers, Multi-Function Remote - Trunk/Hatch/Door/Tailgate, Windows, Sunroof/Convertible Roof, Overhead Console - Mini With Storage, Power Heated Mirrors, Power Windows With 2 One-Touch, Privacy/Tinted Glass, Rear Bench Seats, Rear Defogger, Remote Sunroof/Convertible Roof Operation - Remote Sunroof Operation, Speed Sensitive Window Wipers, Sunroof - Express Open/Close Glass, Traction Control - ABS And Driveline"
+      },
+      {
+        "makeName": "Honda",
+        "modelName": "Accord",
+        "modelYear": 2010,
+        "trimName": "EX",
+        "price": 13995,
+        "miles": 64302,
+        "exteriorColor": "Black",
+        "location": "41.742640,-87.799480",
+        "bodystyleName": "Sedan",
+        "engineDescription": "2.4L I4 16V MPFI DOHC",
+        "transmission": "5-Speed Automatic",
+        "drivetrain": "FWD",
+        "city": "Bridgeview",
+        "state": "IL",
+        "listingDateSeconds": 1443075503,
+        "features": "190 HP Horsepower, 2.4 Liter Inline 4 Cylinder DOHC Engine, 4 Doors, 8-Way Power Adjustable Drivers Seat, Air Conditioning, Automatic Transmission, Center Console - Full With Covered Storage, Clock - In-Radio Display, Front Seat Type - Bucket, Front-Wheel Drive, Fuel Economy EPA Highway (Mpg): 31 And EPA City (Mpg): 21, Head Airbags - Curtain 1st And 2nd Row, Intermittent Window Wipers, Multi-Function Remote - Trunk/Hatch/Door/Tailgate, Windows, Sunroof/Convertible Roof, Overhead Console - Mini With Storage, Power Heated Mirrors, Power Windows With 2 One-Touch, Privacy/Tinted Glass, Rear Bench Seats, Rear Defogger, Remote Sunroof/Convertible Roof Operation - Remote Sunroof Operation, Speed Sensitive Window Wipers, Sunroof - Express Open/Close Glass, Traction Control - ABS And Driveline"
+      }
+    ]
+  }
+}
