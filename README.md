@@ -1,4 +1,6 @@
 # Cars Search App
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/jahnavi310/CarsSearchApp.svg)](https://greenkeeper.io/)
 A single page app that uses json for data and is built with AngularJS, Node and Browserify, where Gulp is the task runner.
 
 
